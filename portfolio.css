@@ -1,0 +1,124 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:arial;
+	background-color:grey;
+}
+li {
+	display:inline-block;
+	padding:10px;
+	padding-top:0px;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+p {
+	font-size:24px;
+}
+.button {
+	background-color:lightgrey;
+	border:none;
+	text-align:center;
+	margin:4px;
+	font-size:16px;
+	display:inline-block;
+	text-decoration:none;
+	padding:0px 30px;
+	cursor:pointer;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  padding:20px;
+  top:10%;
+  position: relative;
+  background-color:white;
+  margin:20px;
+  display:flex;
+}
+.overlaytext {
+	text-align:right;
+	font-size:20px;
+	padding:10px;
+	padding-right:20px;
+	padding-left:40px;
+	max-width:50vw;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  text-decoration:none;
+  color:lightgrey;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.header {
+	padding:0 auto;
+	margin:0 auto;
+	text-align:center;
+	background-color:black;
+	width:100vw auto;
+	top:0;
+}
+.headertextcontainer {
+	padding:20px;
+}
+.headertext {
+	color:white;
+	padding:15px;
+	font-size:98px;
+}
+.headersubtext {
+	font-size:24px;
+	color:white;
+}
+.navbar {
+	color:white;
+	font-size:24px;
+}
+.gradient {
+	background-image:linear-gradient(black,grey);
+	height:5vh;
+	padding-bottom:10px;
+}
+.bodycontainer {
+	padding:20px;
+	background-color:white;
+	width:fit-content;
+	margin:auto;
+	margin-bottom:20px;
+	display:flex;
+	max-width:80vw;
+}
+.bodycontainertext {
+	padding:20px;
+}
+.bodycontainercontentcenter {
+	padding:20px;
+	text-align:center;
+}
+.bodycontainercontentright {
+	padding:20px;
+	text-align:right;
+}
+.push {
+	padding:20px
+}
