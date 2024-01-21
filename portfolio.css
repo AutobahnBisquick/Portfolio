@@ -119,6 +119,10 @@ p {
 	padding:20px;
 	text-align:right;
 }
+.bodycontainercontentleft {
+	padding:20px;
+	text-align:left;
+}
 .push {
 	padding:20px
 }
