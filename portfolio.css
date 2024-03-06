@@ -126,3 +126,24 @@ p {
 .push {
 	padding:20px
 }
+.bodycontainerfull {
+	padding:20px;
+	background-color:white;
+	width:75vw;
+	margin:auto;
+	margin-bottom:20px;
+	display:block;
+}
+.portfoliotext {
+	display:block;
+}
+.portfoliobodycontainercontentright {
+	padding:20px;
+	text-align:right;
+	display:flex;
+}
+.portfoliobodycontainercontentleft {
+	padding:20px;
+	text-align:left;
+	display:flex;
+}
